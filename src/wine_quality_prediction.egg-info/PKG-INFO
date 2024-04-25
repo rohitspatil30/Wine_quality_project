@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: wine-quality-prediction
+Version: 0.0.0
+Summary: A small package for predicting wine quality
+Home-page: https://github.com/rohitspatil30/wine_quality_project
+Author: rohitspatil30
+Author-email: rohitspatil30@gmail.com
+Project-URL: Bug Tracker, https://github.com/rohitspatil30/wine_quality_project/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+wine quality project
