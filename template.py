@@ -35,7 +35,7 @@ list_of_files = [
     'app.py',
     'setup.py',
     'requirements.txt',
-    'reseach/trial.ipynb',
+    'research/trial.ipynb',
     'templates/index.html',
 ]
 
