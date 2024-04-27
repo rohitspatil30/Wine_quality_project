@@ -1,1 +1,1 @@
-wine-quality-prediction
+wine_quality_prediction

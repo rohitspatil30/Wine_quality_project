@@ -11,7 +11,7 @@ level=logging.INFO: This sets the logging level to INFO, which means that all me
 format="[%(asctime)s] : %(message)s": This specifies the format of the log messages. %(asctime)s is replaced with the current time in a human-readable format, and %(message)s is replaced with the actual log message.
 '''
 
-project_name = 'wine-quality-prediction'
+project_name = 'wine_quality_prediction'
 
 list_of_files = [
     '.github/workflows/.gitkeep',

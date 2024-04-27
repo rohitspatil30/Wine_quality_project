@@ -1,3 +1,4 @@
-from app import return_sum
+# import logger
+from src.wine_quality_prediction.logging import logger
 
-print(return_sum(2,3))
+logger.info("Logging info")

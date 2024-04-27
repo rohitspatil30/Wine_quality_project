@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 REPO_NAME = "wine_quality_project"
 AUTHOR_USER_NAME = 'rohitspatil30'
-SRC_REPO = 'wine-quality-prediction'
+SRC_REPO = 'wine_quality_prediction'
 AUTHOR_EMAIL = "rohitspatil30@gmail.com"
 
 setuptools.setup(
