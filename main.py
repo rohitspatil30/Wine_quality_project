@@ -5,7 +5,7 @@ from src.wine_quality_prediction import logger
 from src.wine_quality_prediction.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.wine_quality_prediction.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from src.wine_quality_prediction.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
-# from src.wine_quality_prediction.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+from src.wine_quality_prediction.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
 # from src.wine_quality_prediction.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 
 
@@ -44,7 +44,7 @@ except Exception as e:
         raise e
 
 
-'''
+
 STAGE_NAME = "Model Trainer stage"
 try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
@@ -56,7 +56,7 @@ except Exception as e:
         raise e
 
 
-
+'''
 STAGE_NAME = "Model evaluation stage"
 try:
    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
