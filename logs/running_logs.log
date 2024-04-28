@@ -1,2 +1,107 @@
 [2024-04-27 10:30:45,042: INFO: main: Logging info]
 [2024-04-27 10:42:09,604: INFO: main: Logging info]
+[2024-04-28 16:09:17,990: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-28 16:10:06,317: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-28 16:10:06,319: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-04-28 16:10:06,324: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-28 16:10:06,326: INFO: common: created directory at: artifacts]
+[2024-04-28 16:10:06,328: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-28 16:10:07,505: INFO: 1268487314: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2D30:16DCE2:1B5F73:20C1BB:662E2787
+Accept-Ranges: bytes
+Date: Sun, 28 Apr 2024 10:40:09 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4745-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1714300809.315846,VS0,VE357
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9f8f3c387863e8f67c13c02eacaf01ffc6321ea1
+Expires: Sun, 28 Apr 2024 10:45:09 GMT
+Source-Age: 0
+
+]
+[2024-04-28 16:24:46,587: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-28 16:24:46,587: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-28 16:24:46,592: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-28 16:24:46,592: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-04-28 16:24:46,593: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-04-28 16:24:46,593: INFO: common: yaml file: param.yaml loaded successfully]
+[2024-04-28 16:24:46,597: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-28 16:24:46,597: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-04-28 16:24:46,599: INFO: common: created directory at: artifacts]
+[2024-04-28 16:24:46,599: INFO: common: created directory at: artifacts]
+[2024-04-28 16:24:46,600: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-28 16:24:46,600: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-04-28 16:24:47,654: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2D30:16DCE2:1B5F73:20C1BB:662E2787
+Accept-Ranges: bytes
+Date: Sun, 28 Apr 2024 10:54:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4727-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1714301690.572066,VS0,VE246
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9b4574278f64d9df74a181a2bf17d4901f0511b5
+Expires: Sun, 28 Apr 2024 10:59:49 GMT
+Source-Age: 0
+
+]
+[2024-04-28 16:24:47,654: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2D30:16DCE2:1B5F73:20C1BB:662E2787
+Accept-Ranges: bytes
+Date: Sun, 28 Apr 2024 10:54:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4727-BOM
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1714301690.572066,VS0,VE246
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9b4574278f64d9df74a181a2bf17d4901f0511b5
+Expires: Sun, 28 Apr 2024 10:59:49 GMT
+Source-Age: 0
+
+]
+[2024-04-28 16:24:47,668: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-28 16:24:47,668: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

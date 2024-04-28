@@ -1,20 +1,20 @@
-'''
- 0   fixed acidity         1599 non-null   float64
- 1   volatile acidity      1599 non-null   float64
- 2   citric acid           1599 non-null   float64
- 3   residual sugar        1599 non-null   float64
- 4   chlorides             1599 non-null   float64
- 5   free sulfur dioxide   1599 non-null   float64
- 6   total sulfur dioxide  1599 non-null   float64
- 7   density               1599 non-null   float64
- 8   pH                    1599 non-null   float64
- 9   sulphates             1599 non-null   float64
- 10  alcohol               1599 non-null   float64
- 11  quality               1599 non-null   int64  
 
- creating the schema of the given data above in YAML format below
+#  0   fixed acidity         1599 non-null   float64
+#  1   volatile acidity      1599 non-null   float64
+#  2   citric acid           1599 non-null   float64
+#  3   residual sugar        1599 non-null   float64
+#  4   chlorides             1599 non-null   float64
+#  5   free sulfur dioxide   1599 non-null   float64
+#  6   total sulfur dioxide  1599 non-null   float64
+#  7   density               1599 non-null   float64
+#  8   pH                    1599 non-null   float64
+#  9   sulphates             1599 non-null   float64
+#  10  alcohol               1599 non-null   float64
+#  11  quality               1599 non-null   int64  
+
+#  creating the schema of the given data above in YAML format below
  
-'''
+
 COLUMNS:
   fixed acidity: float64
   volatile acidity: float64
