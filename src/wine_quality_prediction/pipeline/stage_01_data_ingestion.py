@@ -3,6 +3,7 @@ from wine_quality_prediction.components.data_ingestion import DataIngestion
 from wine_quality_prediction.config.configuration import ConfigurationManager
 # inport logger
 from src.wine_quality_prediction import logger
+from src.wine_quality_prediction.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 
 
 STAGE_NAME = "Data Ingestion stage"
