@@ -2,18 +2,18 @@
 # answer: it is used to make the code more readable and maintainable. example: from wine_quality_prediction.utils import common, this means that we can import the common file from the utils folder and use it in the project.
 # we can store commonly used functions in the utils folder and import them in the project. it makes the code more readable and maintainable.
 
-import os
-from box.exceptions import BoxValueError
-import yaml
-from src.wine_quality_prediction import logger
-import json
-import joblib
-from ensure import ensure_annotations
-from box import ConfigBox
-from pathlib import Path
-from typing import Any
+import os # this is used to interact with the operating system
+from box.exceptions import BoxValueError #this is used to handle exceptions
+import yaml # this is used to read and write yaml files
+from src.wine_quality_prediction import logger # this is used to log messages
+import json # this is used to read and write json files
+import joblib # this is used to save and load models
+from ensure import ensure_annotations # this is used to make the code more readable, also make sure that the parameters are passed correctly in the function and not in the wrong order.
+from box import ConfigBox # what is the use of box?-> the return type is ConfigBox means that the function returns a ConfigBox object. configbox object is used to make the code more readable. example: from wine_quality_prediction.utils import common, this means that we can import the common file from the utils folder and use it in the project. it makes the code more readable and maintainable.
+from pathlib import Path # this is used to make the code more readable
+from typing import Any # this is used to make the code more readable
 
-
+ 
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
